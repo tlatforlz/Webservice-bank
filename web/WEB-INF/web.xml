@@ -176,6 +176,10 @@
         <servlet-name>ThanhToanV2</servlet-name>
         <servlet-class>Controller.ThanhToanV2</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>CapNhapDiaChiTaiKhoan</servlet-name>
+        <servlet-class>Controller.CapNhapDiaChiTaiKhoan</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>TrangChu</servlet-name>
         <url-pattern>/TrangChu</url-pattern>
@@ -351,6 +355,10 @@
     <servlet-mapping>
         <servlet-name>ThanhToanV2</servlet-name>
         <url-pattern>/ThanhToanV2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CapNhapDiaChiTaiKhoan</servlet-name>
+        <url-pattern>/CapNhapDiaChiTaiKhoan</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

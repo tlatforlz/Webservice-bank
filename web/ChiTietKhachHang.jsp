@@ -161,7 +161,7 @@
                                     <div class="page-title">
                                         <h1>Thêm địa chỉ mới</h1>
                                     </div>
-                                    <form  action="" method="post" id="form-validate">
+                                    <form  action="CapNhapDiaChiTaiKhoan" method="post" id="form-validate">
                                         <div class="fieldset"> <input name="form_key" type="hidden" value="vs7tmcbRu4uIc6CU" /> <input type="hidden" name="success_url" value="" /> <input type="hidden" name="error_url" value="" />
                                             <h2 class="legend">Liên hệ</h2>
                                             <ul class="form-list">
@@ -533,7 +533,7 @@
                                                     <ul class="nav nav-tabs">
                                                         <li class="active" id="ThongTinChung"id="ThongTinChung"><a >Thông tin chung</a></li>
                                                         <li href="#ThongTinTaiKhoan" id="ThongTinTaiKhoan"><a >Thông tin tài khoản</a></li>
-                                                        <li id="SoDiachi"><a >Sổ địa chỉ</a></li>
+                                                        <li href="#SoDiaChiDe" id="SoDiachi"><a >Sổ địa chỉ</a></li>
                                                         <li id="DonHangCuaToi"><a >Đơn hàng của tôi</a></li>  
                                                     </ul>
                                                 </div>
